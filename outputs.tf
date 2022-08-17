@@ -11,6 +11,7 @@ output "policy" {
    Note: Bucket policies are limited to 20 KB in size."
    DOC
 }
+
 output "context" {
   value       = var.context
   description = "Exported context from input variable"
